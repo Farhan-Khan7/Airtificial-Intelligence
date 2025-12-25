@@ -1,0 +1,1 @@
+print("Today I start Airtificial Intelligence & Machine Learning")
