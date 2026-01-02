@@ -23,5 +23,10 @@ engine = pyttsx3.init()
 # else:
 #     print("Wrong Password !")
 
-for i in range(5):
-    print(i)
+word = "Artificial Intelligence"
+count = 0
+for vow in word:
+    print(vow)
+    count += 1
+
+print("Total Words ", count)
