@@ -13,12 +13,15 @@ engine = pyttsx3.init()
 # elif age > 18:
 #     print("Adult")
 
-username = input("Enter Username : ")
-password = input("Enter Password : ")
+# username = input("Enter Username : ")
+# password = input("Enter Password : ")
 
-if(username == "admin" and password == "pass"):
-    print("Login Successfully !")
-elif(username != "admin"):
-    print("Username Wrong !")
-else:
-    print("Wrong Password !")
+# if(username == "admin" and password == "pass"):
+#     print("Login Successfully !")
+# elif(username != "admin"):
+#     print("Username Wrong !")
+# else:
+#     print("Wrong Password !")
+
+for i in range(5):
+    print(i)
