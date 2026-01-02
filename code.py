@@ -25,8 +25,8 @@ engine = pyttsx3.init()
 
 word = "Artificial Intelligence"
 count = 0
-for vow in word:
-    print(vow)
-    count += 1
+for ch in word:
+    if(ch == 'i'):
+        count += 1
 
-print("Total Words ", count)
+print("Total Words =", count)
