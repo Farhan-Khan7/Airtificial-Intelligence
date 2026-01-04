@@ -87,13 +87,27 @@ engine = pyttsx3.init()
 # print(rev)
 
 
-str = input("Enter string = ")
-reverse = ""
-for val in str:
-    reverse = val + reverse
+# str = input("Enter string = ")
+# reverse = ""
+# for val in str:
+#     reverse = val + reverse
 
-if(str == reverse):
-    print("It is palindrome ".format(reverse))
-elif(str != reverse):
-    print("It is not palindrome ")
+# if(str == reverse):
+#     print("It is palindrome ".format(reverse))
+# elif(str != reverse):
+#     print("It is not palindrome ")
+
+
+
+# a = 10
+# b = 5
+
+# print(f"sum of {a} & {b} is {a + b}")
+
+list1 = [1, 2, 7]
+list2 = [2, 4, 5]
+
+list1.extend(list2)
+list1.sort()
+print(list1)
 
