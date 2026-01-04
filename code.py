@@ -23,10 +23,77 @@ engine = pyttsx3.init()
 # else:
 #     print("Wrong Password !")
 
-word = "Artificial Intelligence"
-count = 0
-for ch in word:
-    if(ch == 'i'):
-        count += 1
+# word = "Artificial Intelligence"
+# count = 0
+# for ch in word:
+#     if(ch == 'i'):
+#         count += 1
 
-print("Total Words =", count)
+# print("Total Words =", count)
+
+# sum = 0
+# for i in range(1, 6, 1):
+#     sum += i;
+
+# print("sum = ", sum)
+
+
+# def average(x, y , z):
+#     avg = (x+y+z)/3
+#     return avg
+
+# x = int(input("Enter the value of X = "))
+# y = int(input("Enter the value of Y = "))
+# z = int(input("Enter the value of Z = "))
+
+# ans = average(x , y , z )
+# print("Average of x y z = ", ans)
+
+
+# def NetSalary(salary , tax):
+#     tax = (salary * tax)/100
+#     sal = salary - tax
+#     return tax , sal
+
+# salary = int(input("Enter your salary = "))
+# tax = int(input("which percentage add tax on your salary "))
+
+# NetSalary = NetSalary(salary , tax)
+
+# print("Your Net Salary " , NetSalary)
+
+
+
+# a = int(input("Enter a = "))
+# b = int(input("Enter b = "))
+
+# for i in range(a , b):
+#     if(i%2 == 0):
+#         print(i)
+#     elif(i%2 != 0):
+#         continue
+
+
+# num = 312
+# rev = 0
+# counter = 0
+
+# while num > 0:
+#     digit = num % 10
+#     counter += 1
+#     rev = rev * 10 + digit
+#     num = num // 10
+# print("total digits = ", counter)
+# print(rev)
+
+
+str = input("Enter string = ")
+reverse = ""
+for val in str:
+    reverse = val + reverse
+
+if(str == reverse):
+    print("It is palindrome ".format(reverse))
+elif(str != reverse):
+    print("It is not palindrome ")
+
