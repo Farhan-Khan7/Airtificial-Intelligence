@@ -104,10 +104,24 @@ engine = pyttsx3.init()
 
 # print(f"sum of {a} & {b} is {a + b}")
 
-list1 = [1, 2, 7]
-list2 = [2, 4, 5]
+# list1 = [1, 2, 7]
+# list2 = [2, 4, 5]
 
-list1.extend(list2)
-list1.sort()
-print(list1)
+# list1.extend(list2)
+# list1.sort()
+# print(list1)
 
+
+tup = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+evenTuple = []
+oddTuple = []
+
+for val in tup:
+    if(val%2 == 0):
+        evenTuple.append(val)
+    elif(val%2 != 0):
+        oddTuple.append(val)
+
+print(tuple(evenTuple))
+print(tuple(oddTuple))
