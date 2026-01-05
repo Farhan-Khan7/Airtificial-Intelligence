@@ -127,7 +127,14 @@
 # print(tuple(oddTuple))
 
 
-interger = int(input("Enter interger Number = "))
+# interger = int(input("Enter interger Number = "))
 
-for i in range(interger):
-    print("Hello World")
+# for i in range(interger):
+#     print("Hello World")
+
+
+n = int(input("Enter any natural number = "))
+
+for i in range(n+1):
+    if i<=n:
+        print(i)
