@@ -1,5 +1,5 @@
-import pyttsx3
-engine = pyttsx3.init()
+# import pyttsx3
+# engine = pyttsx3.init()
 
 
 
@@ -112,16 +112,22 @@ engine = pyttsx3.init()
 # print(list1)
 
 
-tup = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# tup = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-evenTuple = []
-oddTuple = []
+# evenTuple = []
+# oddTuple = []
 
-for val in tup:
-    if(val%2 == 0):
-        evenTuple.append(val)
-    elif(val%2 != 0):
-        oddTuple.append(val)
+# for val in tup:
+#     if(val%2 == 0):
+#         evenTuple.append(val)
+#     elif(val%2 != 0):
+#         oddTuple.append(val)
 
-print(tuple(evenTuple))
-print(tuple(oddTuple))
+# print(tuple(evenTuple))
+# print(tuple(oddTuple))
+
+
+interger = int(input("Enter interger Number = "))
+
+for i in range(interger):
+    print("Hello World")
