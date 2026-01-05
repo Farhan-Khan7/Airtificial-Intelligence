@@ -138,8 +138,13 @@
 #     if i<=n:
 #         print(i)
 
+# n = int(input("Enter any natural number = "))
+
+# for i in range(n,0,-1):
+    # print(i)
+
+
 n = int(input("Enter any natural number = "))
 
-for i in range(n,0,-1):
-    print(i)
-
+for i in range(1, n+1):
+    print(f"{n} x {i} = {i*n}")
