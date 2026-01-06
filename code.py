@@ -144,7 +144,27 @@
     # print(i)
 
 
-n = int(input("Enter any natural number = "))
+# n = int(input("Enter any natural number = "))
 
-for i in range(1, n+1):
-    print(f"{n} x {i} = {i*n}")
+# for i in range(1, n+1):
+#     print(f"{n} x {i} = {i*n}")
+
+studentInfo = {
+    "student1" : "Farhan khan",
+    "stdmarks1" : 85,
+}
+
+print("A - Add a student")
+print("B - Update marks")
+print("C - Search for a student")
+print("D - Display all students and marks")
+
+
+operation = input("What do you want : ")
+
+if(operation == 'A'):
+    studentInfo.update({
+        input("Enter key name ") : input("Enter value of key ")
+    })
+
+print(studentInfo)
