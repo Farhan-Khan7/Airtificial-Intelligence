@@ -152,57 +152,57 @@
 
 
 
-# studentInfo = {
-#     "student1" : "Farhan khan",
-#     "stdmarks1" : 85,
-# }
+studentInfo = {
+    "student1" : "Farhan khan",
+    "stdmarks1" : 85,
+}
 
-# keys = studentInfo.keys()
-# values = studentInfo.values()
+keys = studentInfo.keys()
+values = studentInfo.values()
 
-# print("A - Add a student")
-# print("B - Update marks")
-# print("C - Search for a student")
-# print("D - Display all students and marks")
-
-
-# operation = input("What do you want : ")
-
-# if(operation == 'A'):
-#     studentInfo.update({
-#         input("Enter key name ") : input("Enter value of key ")
-#     })
-#     operation = input("What do you want : ")
-# elif(operation == 'B'):
-#     studentKey = input("Enter student key to update marks ")
-#     if studentKey in keys:
-#         studentInfo[studentKey] = int(input("Enter new marks "))
-#     else:
-#         print("Student not found ")
-# elif(operation == 'C'):
-#     studentKey = input("Enter student key to search ")
-#     if studentKey in keys:
-#         print(f"{studentKey} : {studentInfo[studentKey]}")
-#     else:
-#         print("Student not found ")
-# elif(operation == 'D'):
-#     for key in keys:
-#         print(f"{key} : {studentInfo[key]}")
+print("A - Add a student")
+print("B - Update marks")
+print("C - Search for a student")
+print("D - Display all students and marks")
 
 
-info = [
-    ("Alice", "Math"),
-    ("Bob", "Science"),
-    ("Alice", "Science"),
-    ("Charlie", "Math"),
-    ("Bob", "Math"),
-    ("Alice", "English"),
-    ("Charlie", "English"),
-]
+operation = input("What do you want : ")
 
-unique_students = set()
+if(operation == 'A'):
+    studentInfo.update({
+        input("Enter key name ") : input("Enter value of key ")
+    })
+    operation = input("What do you want : ")
+elif(operation == 'B'):
+    studentKey = input("Enter student key to update marks ")
+    if studentKey in keys:
+        studentInfo[studentKey] = int(input("Enter new marks "))
+    else:
+        print("Student not found ")
+elif(operation == 'C'):
+    studentKey = input("Enter student key to search ")
+    if studentKey in keys:
+        print(f"{studentKey} : {studentInfo[studentKey]}")
+    else:
+        print("Student not found ")
+elif(operation == 'D'):
+    for key in keys:
+        print(f"{key} : {studentInfo[key]}")
 
-for name,courses in info:
-    if courses == "English":
-        print(name)
+
+# info = [
+#     ("Alice", "Math"),
+#     ("Bob", "Science"),
+#     ("Alice", "Science"),
+#     ("Charlie", "Math"),
+#     ("Bob", "Math"),
+#     ("Alice", "English"),
+#     ("Charlie", "English"),
+# ]
+
+# unique_students = set()
+
+# for name,courses in info:
+#     if courses == "English":
+#         print(name)
 
