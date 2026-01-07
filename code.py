@@ -133,15 +133,15 @@
 #     print("Hello World")
 
 
-# n = int(input("Enter any natural number = "))
-# for i in range(n+1):
-#     if i<=n:
-#         print(i)
-
 n = int(input("Enter any natural number = "))
+for i in range(n+1):
+    if i<=n:
+        print(i)
 
-for i in range(n,0,-1):
-    print(i)
+# n = int(input("Enter any natural number = "))
+
+# for i in range(n,0,-1):
+    # print(i)
 
 
 # n = int(input("Enter any natural number = "))
