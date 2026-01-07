@@ -190,19 +190,19 @@
 #         print(f"{key} : {studentInfo[key]}")
 
 
-# info = [
-#     ("Alice", "Math"),
-#     ("Bob", "Science"),
-#     ("Alice", "Science"),
-#     ("Charlie", "Math"),
-#     ("Bob", "Math"),
-#     ("Alice", "English"),
-#     ("Charlie", "English"),
-# ]
+info = [
+    ("Alice", "Math"),
+    ("Bob", "Science"),
+    ("Alice", "Science"),
+    ("Charlie", "Math"),
+    ("Bob", "Math"),
+    ("Alice", "English"),
+    ("Charlie", "English"),
+]
 
-# unique_students = set()
+unique_students = set()
 
-# for name,courses in info:
-#     if courses == "English":
-#         print(name)
+for name,courses in info:
+    if courses == "English":
+        print(name)
 
