@@ -431,10 +431,17 @@
 # s = "I love python"
 # p = s.replace("python", "Java")
 # print(p)
-# a = "Hello"
+# a = "Hello "
 # b = "world"
 # c = a + b
 # print(c)
+
+
+
+
+
+
+
 
 
 
@@ -447,6 +454,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 # s = input("Enter string")
 # freq = {}
 # for ch in s:
@@ -455,12 +471,37 @@
 
 
 
-# s = input("Enter sentence: ")
-# print(" ".join(s.split()[::-1]))
-# arr = [10, 20, 30, 40, 50]
-# arr = list(set(arr))
-# arr.sort()
-# print(arr[-2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s = input("Enter sentence: ")
+print(" ".join(s.split()[::-1]))
+arr = [10, 20, 30, 40, 50]
+arr = list(set(arr))
+arr.sort()
+print(arr[-2])
+
+
+
+
+
+
+
+
+
 
 
 
