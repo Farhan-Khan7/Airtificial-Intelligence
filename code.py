@@ -359,40 +359,72 @@
 
 
 
-x = int(input("Enter the number"))
-if x < 0:
-    print("Not an armstrong no")
-else:
-    digit_count = 0
-    digit = x
-    while digit > 0:
-        digit //= 10
-        digit_count += 1
+
+
+
+
+
+# x = int(input("Enter the number"))
+# if x < 0:
+#     print("Not an armstrong no")
+# else:
+#     digit_count = 0
+#     digit = x
+#     while digit > 0:
+#         digit //= 10
+#         digit_count += 1
     
-    temp = x
-    last_digit = 0
-    sum = 0
-    while x > 0:
-        last_digit = x % 10
-        sum = sum + last_digit ** digit_count
-        x //= 10
+#     temp = x
+#     last_digit = 0
+#     sum = 0
+#     while x > 0:
+#         last_digit = x % 10
+#         sum = sum + last_digit ** digit_count
+#         x //= 10
         
-    if temp == sum:
-        print("Armstrong no")
-    else:
-        print("Not armstrong")
+#     if temp == sum:
+#         print("Armstrong no")
+#     else:
+#         print("Not armstrong")
 
 
 
 
 
 
-# x = int(input("Enter the no"))
-# pow = int(input("Enter the pow"))
-# result = 1
-# for i in range(1, pow + 1):
-#     result *= x
-# print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+x = int(input("Enter the no"))
+pow = int(input("Enter the pow"))
+result = 1
+for i in range(1, pow + 1):
+    result *= x
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
