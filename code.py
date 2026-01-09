@@ -405,12 +405,12 @@
 
 
 
-x = int(input("Enter the no"))
-pow = int(input("Enter the pow"))
-result = 1
-for i in range(1, pow + 1):
-    result *= x
-print(result)
+# x = int(input("Enter the no"))
+# pow = int(input("Enter the pow"))
+# result = 1
+# for i in range(1, pow + 1):
+#     result *= x
+# print(result)
 
 
 
