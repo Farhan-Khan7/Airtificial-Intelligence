@@ -476,6 +476,8 @@
 
 
 
+# s = input("Enter sentence: ")
+# print(" ".join(s.split()[::-1]))
 
 
 
@@ -487,12 +489,11 @@
 
 
 
-s = input("Enter sentence: ")
-print(" ".join(s.split()[::-1]))
-arr = [10, 20, 30, 40, 50]
-arr = list(set(arr))
-arr.sort()
-print(arr[-2])
+
+# arr = [10, 20, 30, 40, 50]
+# arr = list(set(arr))
+# arr.sort()
+# print(arr[-2])
 
 
 
@@ -513,6 +514,17 @@ print(arr[-2])
 # print(sum)
 
 
+
+
+
+
+
+
+
+
+
+
+
 # arr = [1, 2, 3, 4, 5, 6]
 # even = odd = 0
 # for i in arr:
@@ -525,9 +537,28 @@ print(arr[-2])
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 # l1 = [1, 2, 3, 4]
 # l2 = [3, 4, 5, 6]
 # print(list(set(l1) & set(l2)))
+
+
+
+
+
+
+
+
 
 
 
@@ -538,5 +569,25 @@ print(arr[-2])
 
 
 
+
+
+
+
+
 # n = int(input("Enter a number"))
 # print("Even" if n % 2 == 0 else "odd")
+
+
+
+
+
+
+
+
+
+i = 1
+while i <= 50:
+    if i % 2 == 0:
+        print(i)
+    i += 1
+
