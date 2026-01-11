@@ -16,6 +16,7 @@
 # print(colors[:])    # Output: ['Red', 'Green', 'Blue', 'Yellow', 'Green']
 
 
+
 # colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 # if "Yellow" in colors:
 #     print("Yellow is present.")
@@ -23,9 +24,11 @@
 #     print("Yellow is absent.")
 
 
+
 # colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 # for colorsval in colors:
 #     print(colorsval)
+
 
 
 # animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
@@ -34,6 +37,17 @@
 
 
 
+# animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
+# print(animals[:6])	#using positive indexes
+# print(animals[:-3])	#using negative indexes
+
+
+
 animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
-print(animals[:6])	#using positive indexes
-print(animals[:-3])	#using negative indexes
+print(animals[::2])		#using positive indexes
+print(animals[-8:-1:2])	#using negative indexes
+
+
+
+# 8 - 8 = 0
+# -8 - -1 = -7 
