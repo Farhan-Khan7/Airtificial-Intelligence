@@ -48,3 +48,9 @@
 # print(animals[-8:-1:2])	#using negative indexes
 
 
+
+animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
+# animals[0] = "yash"
+
+print(animals)
+
