@@ -6,13 +6,13 @@
 # print(countries)
 
 
-countries = ("Pakistan", "Afghanistan", "Bangladesh", "ShriLanka")
-countries2 = ("Vietnam", "India", "China")
-southEastAsia = countries + countries2
-print(southEastAsia)
+# countries = ("Pakistan", "Afghanistan", "Bangladesh", "ShriLanka")
+# countries2 = ("Vietnam", "India", "China")
+# southEastAsia = countries + countries2
+# print(southEastAsia)
 
-countries3 = list(countries)
+# countries3 = list(countries)
 
-print(countries3)
-southEastAsia = countries3 + list(countries2)
-print(southEastAsia)
+# print(countries3)
+# southEastAsia = countries3 + list(countries2)
+# print(southEastAsia)
