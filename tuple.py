@@ -2,9 +2,7 @@
 # #tuples are immutable, so we convert to list to modify
 # temp = list(countries)
 # temp.append("Russia")       #add item 
-# temp.pop(3)                 #remove item
-# temp[2] = "Finland"         #change item
-# countries = tuple(temp)
+# temp.pop(3) tuple(temp)
 # print(countries)
 
 
