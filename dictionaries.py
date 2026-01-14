@@ -14,3 +14,7 @@ student_info = {
 
 # print(dict_keys)    # Output: ['name', 'age', 'grade', 'major', 'cgpa', 'community_service_hours']
 # print(dict_values)  # Output: ['John Doe', 20, 'A', 'Computer Science', 3.8, 50]
+
+
+for key, value in student_info.items():
+    print(f"{key}: {value}")
