@@ -1,0 +1,3 @@
+set = {}
+
+print(type(set))
