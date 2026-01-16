@@ -1,11 +1,11 @@
-student_info = {
-    'name': 'John Doe',
-    'age': 20,
-    'grade': 'A',
-    'major': 'Computer Science',
-    'cgpa': 3.8,
-    'community_service_hours': 50    
-}
+# student_info = {
+#     'name': 'John Doe',
+#     'age': 20,
+#     'grade': 'A',
+#     'major': 'Computer Science',
+#     'cgpa': 3.8,
+#     'community_service_hours': 50    
+# }
 
 # print(student_info['name'])  # Output: John Doe
 # print(student_info.get('age'))  # Output: 20
@@ -16,5 +16,5 @@ student_info = {
 # print(dict_values)  # Output: ['John Doe', 20, 'A', 'Computer Science', 3.8, 50]
 
 
-for key, value in student_info.items():
-    print(f"{key}: {value}")
+# for key, value in student_info.items():
+    # print(f"{key}: {value}")
